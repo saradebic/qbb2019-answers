@@ -6,7 +6,8 @@ samtools sort -@ 4 stdout.sam > stdout.bam
 samtools index stdout.bam
 stringtie stdout.bam -G BDGP6.Ensembl.81.gtf -o alignmentSRR -e -B -p 4
 
-cut -f 1 alignmentSRR | sort | uniq -c > chromosomeAlignments.txt #fast way, cut fields to get the 1st column, sort to be able to use unique with a counter 
+cut -f 1 alignmentSRR | sort | uniq -c > chromosomeAlignments.txt #slow way, cut fields to get the 1st column, sort to be able to use unique with a counter. The faster way is to uniq -c the bam file which is already sorted. The fastest way is to use samtools idxstats. 
+
 
  # the difference between each category with differing numbers of columns is in the number of flags associated with each category. For the reads that didn't align, they have less columns and only the flags YT or YF. The reads that aligned have additional flags such as AS, NM, MD, NH as well as other end user flags. 
 
