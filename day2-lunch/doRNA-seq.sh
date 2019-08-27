@@ -9,8 +9,8 @@ do
   echo "*** Processing $SAMPLE"
   cp ~/data/rawdata/$SAMPLE.fastq .
   fastqc $SAMPLE.fastq
-  hisat2 -p $THREADS -x BDGP6 -U $SAMPLE.fastq -S stdout.sam
-  samtools sort -@ $THREADS stdout.sam > stdout.bam
+  hisat2 -p $THREADS -x BDGP6 -U $SAMPLE.fastq -S $SAMPLE.stdout.sam
+  samtools sort -@ $THREADS $SAMPLE.stdout.sam > stdout.bam
   samtools index stdout.bam
   stringtie stdout.bam -G $ANNOTATION -o $SAMPLE_alignment -e -B -p 4
 done
