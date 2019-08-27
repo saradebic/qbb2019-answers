@@ -1,0 +1,42 @@
+total 48108984
+-rw-r--r--  1 cmdb  staff         112 Aug 27 12:27 -e
+-rw-r--r--  1 cmdb  staff    51898228 Aug 27 11:08 BDGP6.1.ht2
+-rw-r--r--  1 cmdb  staff    35643260 Aug 27 11:08 BDGP6.2.ht2
+-rw-r--r--  1 cmdb  staff       21986 Aug 27 11:07 BDGP6.3.ht2
+-rw-r--r--  1 cmdb  staff    35643255 Aug 27 11:07 BDGP6.4.ht2
+-rw-r--r--  1 cmdb  staff    77356861 Aug 27 11:08 BDGP6.5.ht2
+-rw-r--r--  1 cmdb  staff    36275452 Aug 27 11:08 BDGP6.6.ht2
+-rw-r--r--  1 cmdb  staff          12 Aug 27 11:07 BDGP6.7.ht2
+-rw-r--r--  1 cmdb  staff           8 Aug 27 11:07 BDGP6.8.ht2
+-r--r--r--  1 cmdb  staff   182276780 Aug 26 11:49 BDGP6.Ensembl.81.gtf
+-r--r--r--  1 cmdb  staff   146266837 Aug 26 11:49 BDGP6.fa
+-rw-r--r--@ 1 cmdb  staff         772 Aug 27 13:37 README_day2lunch.md
+-rw-r--r--  1 cmdb  staff     1991262 Aug 27 11:39 SRR072893.10k.fastq
+-rw-r--r--  1 cmdb  staff      610311 Aug 27 11:41 SRR072893.10k_fastqc.html
+-rw-r--r--  1 cmdb  staff      431319 Aug 27 11:41 SRR072893.10k_fastqc.zip
+-rw-r--r--  1 cmdb  staff          52 Aug 27 13:07 SRR072893.columns
+-r--r--r--  1 cmdb  staff  4582672018 Aug 27 11:35 SRR072893.fastq
+-rw-r--r--  1 cmdb  staff      627558 Aug 27 12:28 SRR072893_fastqc.html
+-rw-r--r--  1 cmdb  staff      511890 Aug 27 12:28 SRR072893_fastqc.zip
+-r--r--r--  1 cmdb  staff  4295582972 Aug 27 12:24 SRR072903.fastq
+-r--r--r--  1 cmdb  staff  5651719468 Aug 27 12:25 SRR072905.fastq
+-r--r--r--  1 cmdb  staff  4841851938 Aug 27 12:26 SRR072915.fastq
+-rw-r--r--  1 cmdb  staff      607314 Aug 27 12:27 SRR072915_fastqc.html
+-rw-r--r--  1 cmdb  staff      462301 Aug 27 12:27 SRR072915_fastqc.zip
+-rw-r--r--  1 cmdb  staff    31572018 Aug 27 12:05 alignmentSRR
+-rw-r--r--  1 cmdb  staff        1221 Aug 27 12:54 chromosomeAlignments.txt
+-rwxr-xr-x@ 1 cmdb  staff         481 Aug 27 13:20 doRNA-seq.sh
+-rw-r--r--  1 cmdb  staff           0 Aug 27 12:31 e2t.ctab
+-rw-r--r--  1 cmdb  staff           0 Aug 27 12:31 e_data.ctab
+-rw-r--r--  1 cmdb  staff           0 Aug 27 12:31 i2t.ctab
+-rw-r--r--  1 cmdb  staff           0 Aug 27 12:31 i_data.ctab
+-rw-r--r--  1 cmdb  staff           0 Aug 27 14:02 output.txt
+-rw-r--r--  1 cmdb  staff   619813664 Aug 27 12:30 stdout.bam
+-rw-r--r--  1 cmdb  staff      240216 Aug 27 12:30 stdout.bam.bai
+-rw-r--r--  1 cmdb  staff  3985446436 Aug 27 12:30 stdout.sam
+-rw-r--r--  1 cmdb  staff           0 Aug 27 12:31 t_data.ctab
+drwx------  3 cmdb  staff          96 Aug 27 12:30 tmp.TsNhWQa0
+
+/Users/cmdb/qbb2019-answers/day2-lunch/tmp.TsNhWQa0:
+total 6272
+-rw-r--r--  1 cmdb  staff  2469888 Aug 27 12:31 -e.tmp
